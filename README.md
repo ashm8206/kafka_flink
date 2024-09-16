@@ -5,7 +5,7 @@
    * [Run streaming job](#run-streaming-job)
    * [Check output](#check-output)
    * [References](#references)
-https://github.com/ashm8206/kafka_flink.git
+
 
 ## Project
 
@@ -85,3 +85,4 @@ SELECT checkout_id, click_id, checkout_time, click_time, user_name FROM commerce
 
 1. [Apache Flink docs](https://nightlies.apache.org/flink/flink-docs-release-1.17/)
 2. [Flink Prometheus example project](https://github.com/mbode/flink-prometheus-example)
+3. [Blog: Start Data Engineering](https://www.startdataengineering.com/post/data-engineering-project-for-beginners-stream-edition/)
