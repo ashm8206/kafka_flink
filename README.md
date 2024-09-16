@@ -5,7 +5,7 @@
    * [Run streaming job](#run-streaming-job)
    * [Check output](#check-output)
    * [References](#references)
-
+https://github.com/ashm8206/kafka_flink.git
 
 ## Project
 
@@ -36,11 +36,12 @@
 
 We use Apache Table API to
 
-1. Define Source systems: **[clicks, checkouts and users]<!-- (https://github.com/ashm8206/beginner_de_project_stream/tree/main/code/source)**. [This python script] (https://github.com/ashm8206/beginner_de_project_stream/blob/main/datagen/gen_fake_data.py) -->  script gen_fake_data.py ,generates fake click and checkout data.**
-2. Define how to process the data (enrich and attribute): **[Enriching with user data and attributing checkouts ]<!--(https://github.com/ashm8206/beginner_de_project_stream/blob/main/code/process/attribute_checkouts.sql)** !-->**
-4. Define Sink system: **[sink]<!--(https://github.com/ashm8206/beginner_de_project_stream/blob/main/code/sink/attributed_checkouts.sql)** --> **
+1. Define Source systems: **[clicks, checkouts and users](https://github.com/ashm8206/kafka_flink/tree/main/code/source)
+**[This python script](https://github.com/ashm8206/kafka_flink/blob/main/datagen/gen_fake_data.py) generates fake click and checkout data.**
+3. Define how to process the data (enrich and attribute): **[Enriching with user data and attributing checkouts ](https://github.com/ashm8206/kafka_flink/blob/main/code/process/attributed_checkouts.sqll)**
+4. Define Sink system: **[sink](https://github.com/ashm8206/kafka_flink/blob/main/code/sink/attributed_checkouts.sql)**
 
-The function **[run_checkout_attribution_job]<!--(https://github.com/ashm8206/beginner_de_project_stream/blob/cddab5b4bb2bce80e59d3525a78a02598d88eac9/code/checkout_attribution.py#L107-L129)**--> ** creates the sources, and sink and runs the data processing.
+The function **[run_checkout_attribution_job for Flink](https://github.com/ashm8206/kafka_flink/blob/main/code/checkout_attribution.py)** creates the sources, and sink and runs the data processing.
 
 We store the SQL DDL and DML in the folders `source`, `process`, and `sink` corresponding to the above steps.**The code is available [here](https://github.com/ashm8206/kafka_flink).**
 
