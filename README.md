@@ -1,3 +1,9 @@
+```
+---
+Author: Aishwarya Mali
+Date:   09/16/24
+---
+```
 ### Table of Contents
    * [Project](#project)
    * [Architecture](#architecture)
@@ -5,14 +11,6 @@
    * [Run streaming job](#run-streaming-job)
    * [Check output](#check-output)
    * [References](#references)
-
-   ```
-   ---
-   Author: Aishwarya Mali
-   Date:   09/16/24
-   ---
-   ```
-
 
 ## Project
 
