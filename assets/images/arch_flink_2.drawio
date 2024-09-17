@@ -106,9 +106,6 @@
         <mxCell id="IYt8FbWoTCZb1FsOmSFf-51" value="&lt;b&gt;&lt;font color=&quot;#6600cc&quot;&gt;Flink&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="225" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="cgd__0uG6HyY_8WHmadz-1" value="&lt;font color=&quot;#0000ff&quot;&gt;&lt;b&gt;Author:&lt;/b&gt;&lt;br&gt;&lt;i&gt;Aishwarya Mali&lt;/i&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="40" width="140" height="30" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>

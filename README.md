@@ -6,6 +6,13 @@
    * [Check output](#check-output)
    * [References](#references)
 
+   ```
+   ---
+   Author: Aishwarya Mali
+   Date:   09/16/24
+   ---
+   ```
+
 
 ## Project
 
